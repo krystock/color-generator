@@ -39,6 +39,7 @@
     -moz-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
     -o-transition: all ease 0.3s;
+    text-decoration: underline;
 }
 
 #output, #button {
@@ -48,4 +49,9 @@
 #output {
     margin-top: 1rem;
     background-color: rgba(220,220,235,0.8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
